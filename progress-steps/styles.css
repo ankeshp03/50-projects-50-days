@@ -1,0 +1,93 @@
+:root {
+  --active-color: #3498db;
+  --inactive-color: #e0e0e0;
+  --transition-duration: 0.5s;
+  --node-radius: 25px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f6f7fb;
+}
+  
+#progress-container {
+  --progress-width: 0%;
+  display: flex;
+  width: 500px;
+  padding: 0;
+  margin: 0 auto;
+  min-width: 200px;
+  position: relative;
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+#progress-container:before, #progress-container:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: 50%;
+  z-index: -1;
+  transform: translateY(-50%);
+  
+}
+
+#progress-container:before {
+  width: 100%;
+  background-color: var(--inactive-color);
+}
+
+#progress-container:after {
+  width: var(--progress-width);
+  background-color: var(--active-color); 
+  transition: width var(--transition-duration) ease-in-out;
+}
+
+.progress:not(.last-progress) {
+  flex-grow: 1;
+}
+
+.progress-node {
+  margin: 0;
+  width: var(--node-radius);
+  height: var(--node-radius);
+  border-radius: 50%;
+  display: flex;
+  border: 3px solid var(--inactive-color);
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #999;
+  transition: border-color var(--transition-duration) ease-in-out;
+}
+
+.progress.active .progress-node {
+  border-color: var(--active-color);
+}
+
+#button-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#button-container button {
+  border: none;
+  border-radius: 7px;
+  padding: 10px 35px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 5px;
+  background-color: var(--active-color);
+  transition: background-color var(--transition-duration) ease-in-out;
+}
+
+#button-container button:active {
+  outline: none;
+  transform: scale(0.98);
+}
+
+#button-container button:disabled {
+  cursor: not-allowed;
+  background-color: var(--inactive-color);
+}
