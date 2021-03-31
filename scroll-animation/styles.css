@@ -1,0 +1,40 @@
+body {
+  background-color: #efedd6;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.content {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: steelblue;
+  box-shadow: 3px 4px 5px 0 rgba(0, 0, 0, 0.3);
+  transition: transform 0.25s ease-out;
+}
+
+.container .content:nth-child(odd) {
+  transform: translateX(100vw);
+}
+
+.container .content:nth-child(even) {
+  transform: translateX(-100vw);
+}
+
+.container .content.show {
+  transform: translateX(0);
+}
