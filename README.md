@@ -11,17 +11,17 @@
 
 ### Projects
 
-|  #  | Project                                                                                                                     | CodePen Demo                                           |
-| :-: | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+|  #  | Project                                                                                                                    | CodePen Demo                                            |
+| :-: | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | 01  | [Expanding Cards](https://github.com/ankeshp03/50-projects-50-days/tree/main/expanding-cards)                              | [Live Demo](https://codepen.io/ankeshp03/full/eYgZmOq)  |
 | 02  | [Progress Steps](https://github.com/ankeshp03/50-projects-50-days/tree/main/progress-steps)                                | [Live Demo](https://codepen.io/ankeshp03/full/MWJyPZv)  |
 | 03  | [Rotating Navigation Animation](https://github.com/ankeshp03/50-projects-50-days/tree/main/rotating-navigation-animation/) | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
-| 04  | [Hidden Search Widget](https://github.com/ankeshp03/50-projects-50-days/tree/main/hidden-search-widget)                           | [Live Demo](https://codepen.io/ankeshp03/full/ZELpOOJ/) |
+| 04  | [Hidden Search Widget](https://github.com/ankeshp03/50-projects-50-days/tree/main/hidden-search-widget)                    | [Live Demo](https://codepen.io/ankeshp03/full/ZELpOOJ/) |
 | 05  | [Blurry Loading](https://github.com/ankeshp03/50-projects-50-days/tree/main/blurry-loading)                                | [Live Demo](https://codepen.io/ankeshp03/full/ZELBeEx/) |
 | 06  | [Scroll Animation](https://github.com/ankeshp03/50-projects-50-days/tree/main/scroll-animation)                            | [Live Demo](https://codepen.io/ankeshp03/full/mdRRVar/) |
 | 07  | [Split Landing Page](https://github.com/ankeshp03/50-projects-50-days/tree/main/split-landing-page)                        | [Live Demo](https://codepen.io/ankeshp03/full/rNjyNgz/) |
+| 08  | [Form Wave](https://github.com/ankeshp03/50-projects-50-days/tree/main/form-wave)                                          | [Live Demo](https://codepen.io/ankeshp03/full/vYgxRRr/) |
 <!---
-| 08  | [Form Wave](https://github.com/ankeshp03/50-projects-50-days/tree/main/form-input-wave)                                    | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 09  | [Sound Board](https://github.com/ankeshp03/50-projects-50-days/tree/main/sound-board)                                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 10  | [Dad Jokes](https://github.com/ankeshp03/50-projects-50-days/tree/main/dad-jokes)                                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 11  | [Event Keycodes](https://github.com/ankeshp03/50-projects-50-days/tree/main/event-keycodes)                                | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
