@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  background-color: rgb(161, 100, 223);
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container button {
+  color: #fff;
+  border: none;
+  margin: 15px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 25px 50px;
+  background-color: rebeccapurple;
+}
+
+.container button:hover {
+  opacity: 0.9;
+}
