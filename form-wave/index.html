@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Form Wave</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css" />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Please Login</h1>
+      <form onsubmit="return false;">
+        <div class="input-container email-input">
+          <input type="text" id="email" name="email" required />
+          <label for="email">
+            <span style="transition-delay: 0s;">E</span>
+            <span style="transition-delay: 0.05s;">m</span>
+            <span style="transition-delay: 0.1s;">a</span>
+            <span style="transition-delay: 0.15s;">i</span>
+            <span style="transition-delay: 0.2s;">l</span>
+          </label>
+        </div>
+        <div class="input-container password-input">
+          <input type="password" id="password" name="password" required />
+          <label for="password">
+            <span style="transition-delay: 0s;">P</span>
+            <span style="transition-delay: 0.05s;">a</span>
+            <span style="transition-delay: 0.1s;">s</span>
+            <span style="transition-delay: 0.15s;">s</span>
+            <span style="transition-delay: 0.2s;">w</span>
+            <span style="transition-delay: 0.25s;">o</span>
+            <span style="transition-delay: 0.3s;">r</span>
+            <span style="transition-delay: 0.35s;">d</span>
+          </label>
+        </div>
+        <button class="login-button">Login</button>
+      </form>
+      <p class="register">
+        <span>Don't have an account? </span>
+        <a href="#">Register</a>
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  color: #fff;
+  display: flex;
+  font-size: 17px;
+  min-height: 100vh;
+  align-items: center;
+  font-family: sans-serif;
+  justify-content: center;
+  background-color: steelblue;
+}
+
+.container {
+  padding: 30px 40px;
+  min-width: 300px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container .heading {
+  margin-top: 0;
+  text-align: center;
+}
+
+.container .input-container {
+  position: relative;
+}
+
+.container .input-container.email-input {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.container .input-container label {
+  margin: 0;
+  left: 0;
+  bottom: 15px;
+  position: absolute;
+  letter-spacing: -1.8px;
+}
+
+.container .input-container label span {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.62, -1.02, 0.35, 2.11);
+}
+
+.container .input-container input {
+  border: none;
+  width: 100%;
+  outline: none;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 18px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #fff;
+  background-color: transparent;
+}
+
+.container .input-container input:focus {
+  border-bottom-color: lightblue;
+}
+
+.container .input-container input:focus + label span,
+.container .input-container input:valid + label span {
+  color: lightblue;
+  transform: translateY(-20px);
+}
+
+.container .login-button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  margin: 40px 0;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 7px;
+  background-color: lightblue;
+}
+
+.container .login-button:active {
+  transform: scale(0.98);
+}
+
+.container .register {
+  margin: 0;
+  font-size: 15px;
+}
+
+.container .register a {
+  color: lightblue;
+  text-decoration: none;
+}
