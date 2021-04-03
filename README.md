@@ -22,8 +22,8 @@
 | 07  | [Split Landing Page](https://github.com/ankeshp03/50-projects-50-days/tree/main/split-landing-page)                        | [Live Demo](https://codepen.io/ankeshp03/full/rNjyNgz/) |
 | 08  | [Form Wave](https://github.com/ankeshp03/50-projects-50-days/tree/main/form-wave)                                          | [Live Demo](https://codepen.io/ankeshp03/full/vYgxRRr/) |
 | 09  | [Sound Board](https://github.com/ankeshp03/50-projects-50-days/tree/main/sound-board)                                      | [Live Demo](https://codepen.io/ankeshp03/full/yLgMdNW/) |
+| 10  | [Dad Jokes](https://github.com/ankeshp03/50-projects-50-days/tree/main/dad-jokes)                                          | [Live Demo](https://codepen.io/ankeshp03/full/MWJmpjb/) |
 <!---
-| 10  | [Dad Jokes](https://github.com/ankeshp03/50-projects-50-days/tree/main/dad-jokes)                                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 11  | [Event Keycodes](https://github.com/ankeshp03/50-projects-50-days/tree/main/event-keycodes)                                | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 12  | [Faq Collapse](https://github.com/ankeshp03/50-projects-50-days/tree/main/faq-collapse)                                    | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 13  | [Random Choice Picker](https://github.com/ankeshp03/50-projects-50-days/tree/main/random-choice-picker)                    | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
