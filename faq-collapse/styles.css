@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  background-color: #eee;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.container .heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container .question-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.question-list .question-list-item {
+  position: relative;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #999;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.question-list-item .question {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.question-list-item .answer {
+  display: none;
+  margin: 20px 0;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+}
+
+.question-list-item .toggle-button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.question-list-item .toggle-button:before,
+.question-list-item .toggle-button:after {
+  content: "";
+  top: 50%;
+  width: 3px;
+  right: 47.5%;
+  height: 10px;
+  position: absolute;
+  background-color: #333;
+  transform-origin: bottom;
+}
+
+.question-list-item .toggle-button:before {
+  transform: translate(25%, -50%) rotate(-45deg);
+}
+
+.question-list-item .toggle-button:after {
+  transform: translate(-25%, -50%) rotate(45deg);
+}
+
+.question-list-item.show {
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.3);
+}
+
+.question-list-item.show:before,
+.question-list-item.show:after {
+  top: 20px;
+  left: 20px;
+  z-index: 0;
+  opacity: 0.2;
+  color: #2ecc71;
+  font-size: 7rem;
+  content: "\f075";
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+}
+
+.question-list-item.show:before {
+  top: -10px;
+  left: -30px;
+  color: #3498db;
+  transform: rotateY(180deg);
+}
+
+.show .answer {
+  display: block;
+}
+
+.show .toggle-button {
+  background-color: #aaa;
+}
+
+.show .toggle-button:before,
+.show .toggle-button:after {
+  right: 45%;
+  height: 15px;
+  background-color: #fff;
+  transform-origin: center;
+}
+
+.show .toggle-button:before {
+  transform: translate(0%, -50%) rotate(-45deg);
+}
+
+.show .toggle-button:after {
+  transform: translate(0%, -50%) rotate(45deg);
+}
