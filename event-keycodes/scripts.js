@@ -11,7 +11,7 @@ window.addEventListener("keydown", displayKeyDetails);
 function displayKeyDetails(event) {
   eventDetailsContainerEl.classList.remove("hidden");
   defaultMsgContainerEl.classList.add("hidden");
-  keyContainerEl.innerText = event.key;
+  keyContainerEl.innerText = event.key === " " ? event.code : event.key;
   keyCodeContainerEl.innerText = event.keyCode;
   codeContainerEl.innerText = event.code;
 }
