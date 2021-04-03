@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  background-color: #ddd;
+  font-family: sans-serif;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .info-container {
+  padding: 20px;
+  margin-top: 5px;
+  min-width: 100px;
+  border: 1px solid #888;
+  background-color: #ededed;
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.15);
+}
+
+.container .event-details-container {
+  display: flex;
+}
+
+.event-details-container .details {
+  margin: 15px;
+  text-align: center;
+}
+
+.details .heading {
+  margin: 0;
+  color: #555;
+}
+
+.container .hidden {
+  display: none;
+}
