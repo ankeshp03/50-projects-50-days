@@ -25,8 +25,8 @@
 | 10  | [Dad Jokes](https://github.com/ankeshp03/50-projects-50-days/tree/main/dad-jokes)                                          | [Live Demo](https://codepen.io/ankeshp03/full/MWJmpjb/) |
 | 11  | [Event Keycodes](https://github.com/ankeshp03/50-projects-50-days/tree/main/event-keycodes)                                | [Live Demo](https://codepen.io/ankeshp03/full/zYNwwxm/) |
 | 12  | [FAQ Collapse](https://github.com/ankeshp03/50-projects-50-days/tree/main/faq-collapse)                                    | [Live Demo](https://codepen.io/ankeshp03/full/eYgWegY/) |
+| 13  | [Random Choice Picker](https://github.com/ankeshp03/50-projects-50-days/tree/main/random-choice-picker)                    | [Live Demo](https://codepen.io/ankeshp03/full/dyNWrQV/) |
 <!---
-| 13  | [Random Choice Picker](https://github.com/ankeshp03/50-projects-50-days/tree/main/random-choice-picker)                    | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 14  | [Animated Navigation](https://github.com/ankeshp03/50-projects-50-days/tree/main/animated-navigation)                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 15  | [Incrementing Counter](https://github.com/ankeshp03/50-projects-50-days/tree/main/incrementing-counter)                    | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 16  | [Drink Water](https://github.com/ankeshp03/50-projects-50-days/tree/main/drink-water)                                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
