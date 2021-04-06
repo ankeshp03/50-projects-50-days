@@ -27,8 +27,8 @@
 | 12  | [FAQ Collapse](https://github.com/ankeshp03/50-projects-50-days/tree/main/faq-collapse)                                    | [Live Demo](https://codepen.io/ankeshp03/full/eYgWegY/) |
 | 13  | [Random Choice Picker](https://github.com/ankeshp03/50-projects-50-days/tree/main/random-choice-picker)                    | [Live Demo](https://codepen.io/ankeshp03/full/dyNWrQV/) |
 | 14  | [Animated Navigation](https://github.com/ankeshp03/50-projects-50-days/tree/main/animated-navigation)                      | [Live Demo](https://codepen.io/ankeshp03/full/GRrmLwV/) |
+| 15  | [Incrementing Counter](https://github.com/ankeshp03/50-projects-50-days/tree/main/incrementing-counter)                    | [Live Demo](https://codepen.io/ankeshp03/full/XWpaXRj/) |
 <!---
-| 15  | [Incrementing Counter](https://github.com/ankeshp03/50-projects-50-days/tree/main/incrementing-counter)                    | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 16  | [Drink Water](https://github.com/ankeshp03/50-projects-50-days/tree/main/drink-water)                                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 17  | [Movie App](https://github.com/ankeshp03/50-projects-50-days/tree/main/movie-app)                                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |
 | 18  | [Background Slider](https://github.com/ankeshp03/50-projects-50-days/tree/main/background-slider)                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/) |

@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  color: #fff;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: #8e44ad;
+}
+
+.container {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.container li {
+  padding: 50px;
+  text-align: center;
+}
+
+.container li .icon {
+  font-size: 45px;
+}
+
+.container li .counter {
+  font-size: 55px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.container li .label {
+  margin: 0;
+  letter-spacing: 2px;
+}
