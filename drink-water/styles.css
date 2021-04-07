@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  color: #fff;
+  display: flex;
+  min-height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: #3494e4;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container .sub-heading {
+  font-weight: normal;
+}
+
+.container .glasses-container {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.glass {
+  display: flex;
+  color: #144fc6;
+  background-color: #fff;
+  border: 4px solid #144fc6;
+}
+
+.main-glass {
+  width: 130px;
+  height: 300px;
+  overflow: hidden;
+  margin: 30px auto;
+  flex-direction: column;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.main-glass .remaining,
+.main-glass .filled {
+  width: 100%;
+  flex-grow: 1;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  transition: height 0.25s ease-in-out;
+}
+
+.main-glass .remaining {
+  height: 100%;
+}
+
+.main-glass .filled {
+  height: 0;
+}
+
+.main-glass .remaining-quantity,
+.main-glass .remaining-label {
+  margin: 0;
+  font-size: 15px;
+}
+
+.remaining-label {
+  font-size: 14px;
+}
+
+.glasses-container .row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.glasses-container .glass {
+  margin: 0 5px;
+  height: 100px;
+  cursor: pointer;
+  align-items: center;
+  width: calc(100% / 4);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.glasses-container .glass.filled,
+.main-glass .filled {
+  background-color: #6ab3f8;
+}
+
+.glasses-container .glass.filled {
+  color: #fff;
+}
