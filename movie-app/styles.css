@@ -1,0 +1,97 @@
+body {
+  --dark-blue: #22254b;
+  --light-blue: #373b69;
+  margin: 0;
+  color: #eee;
+  font-family: sans-serif;
+  background-color: var(--dark-blue);
+}
+
+.search-container {
+  margin: 0;
+  display: flex;
+  padding: 20px;
+  justify-content: flex-end;
+  background-color: var(--light-blue);
+}
+
+.search-container input {
+  color: #eee;
+  outline: none;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid var(--dark-blue);
+}
+
+.search-container input:focus {
+  background-color: #22254b;
+}
+
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movies-container .movie-card {
+  width: 300px;
+  margin: 15px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 3px;
+  background-color: var(--light-blue);
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.movies-container .movie-card img {
+  width: 100%;
+  height: 450px;
+}
+
+.movies-container .movie-card .movie-details {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 30px;
+  justify-content: space-between;
+}
+
+.movies-container .movie-card .rating {
+  padding: 5px 7px;
+  border-radius: 3px;
+  background-color: var(--dark-blue);
+}
+
+.movies-container .movie-card .rating.excellent {
+  color: lightgreen;
+}
+
+.movies-container .movie-card .rating.good {
+  color: orange;
+}
+
+.movies-container .movie-card .rating.bad {
+  color: red;
+}
+
+.movies-container .movie-card .overview {
+  color: #333;
+  bottom: -100%;
+  padding: 30px;
+  max-height: 100%;
+  overflow-y: auto;
+  line-height: 25px;
+  position: absolute;
+  background-color: #fff;
+  box-sizing: border-box;
+  transition: bottom 0.4s ease-in-out;
+}
+
+.movies-container .movie-card .overview p {
+  margin-bottom: 0;
+}
+
+.movies-container .movie-card:hover .overview {
+  bottom: 0;
+}
