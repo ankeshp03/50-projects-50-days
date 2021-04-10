@@ -30,8 +30,8 @@
 | 15  | [Incrementing Counter](https://github.com/ankeshp03/50-projects-50-days/tree/main/incrementing-counter)                    | [Live Demo](https://codepen.io/ankeshp03/full/XWpaXRj/)           |
 | 16  | [Drink Water](https://github.com/ankeshp03/50-projects-50-days/tree/main/drink-water)                                      | [Live Demo](https://codepen.io/ankeshp03/full/jOyLrbz/)           |
 | 17  | [Movie App](https://github.com/ankeshp03/50-projects-50-days/tree/main/movie-app)                                          | [Live Demo](https://cdpn.io/ankeshp03/debug/vYgexwa/xJAjOeBqELvk) |
+| 18  | [Background Slider](https://github.com/ankeshp03/50-projects-50-days/tree/main/background-slider)                          | [Live Demo](https://codepen.io/ankeshp03/full/wvgpqYj/)           |
 <!--           -
-| 18  | [Background Slider](https://github.com/ankeshp03/50-projects-50-days/tree/main/background-slider)                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 19  | [Theme Clock](https://github.com/ankeshp03/50-projects-50-days/tree/main/theme-clock)                                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 20  | [Button Ripple Effect](https://github.com/ankeshp03/50-projects-50-days/tree/main/button-ripple-effect)                    | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 21  | [Drag N Drop](https://github.com/ankeshp03/50-projects-50-days/tree/main/drag-n-drop)                                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
