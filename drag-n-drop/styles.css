@@ -30,6 +30,7 @@ body {
 .draggable-content {
   width: 145px;
   height: 145px;
+  cursor: pointer;
   background-image: url("https://source.unsplash.com/random/150x150");
 }
 
