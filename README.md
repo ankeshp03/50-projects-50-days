@@ -33,8 +33,8 @@
 | 18  | [Background Slider](https://github.com/ankeshp03/50-projects-50-days/tree/main/background-slider)                          | [Live Demo](https://codepen.io/ankeshp03/full/wvgpqYj/)           |
 | 19  | [Theme Clock](https://github.com/ankeshp03/50-projects-50-days/tree/main/theme-clock)                                      | [Live Demo](https://codepen.io/ankeshp03/full/zYNpRGr/)           |
 | 20  | [Button Ripple Effect](https://github.com/ankeshp03/50-projects-50-days/tree/main/button-ripple-effect)                    | [Live Demo](https://codepen.io/ankeshp03/full/OJWzKoO/)           |
+| 21  | [Drag N Drop](https://github.com/ankeshp03/50-projects-50-days/tree/main/drag-n-drop)                                      | [Live Demo](https://codepen.io/ankeshp03/full/zYNRGqv/)           |
 <!--           -
-| 21  | [Drag N Drop](https://github.com/ankeshp03/50-projects-50-days/tree/main/drag-n-drop)                                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 22  | [Drawing App](https://github.com/ankeshp03/50-projects-50-days/tree/main/drawing-app)                                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 23  | [Kinetic Loader](https://github.com/ankeshp03/50-projects-50-days/tree/main/kinetic-loader)                                | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 24  | [Content Placeholder](https://github.com/ankeshp03/50-projects-50-days/tree/main/content-placeholder)                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
