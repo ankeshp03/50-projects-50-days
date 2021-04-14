@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: #eee;
+  min-height: calc(100vh - 20px);
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+#canvas {
+  background-color: #fff;
+  border: 2px solid steelblue;
+}
+
+.controls {
+  display: flex;
+  padding: 20px;
+  background-color: steelblue;
+}
+
+.controls > * {
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.controls > *:not(:last-child) {
+  margin-right: 10px;
+}
+
+.controls > button {
+  font-size: 30px;
+}
+
+.controls > button:hover {
+  background-color: #ddd;
+}
+
+.controls button:last-child {
+  margin-left: auto;
+}
+
+.controls .size {
+  outline: none;
+  cursor: default;
+}
+
+.controls .size:hover {
+  background-color: #eee;
+}
