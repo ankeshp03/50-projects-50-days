@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: #ecf0f1;
+}
+
+.container {
+  width: 350px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: 0 2px 10px -2px rgba(0, 0, 0, 0.3);
+}
+
+.container .card-image-container {
+  height: 200px;
+}
+
+.card-image-container .card-image {
+  width: 100%;
+  height: 100%;
+}
+
+.card-details {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.card-details .heading {
+  margin: 0;
+}
+
+.card-details .details {
+  color: #7f7f7f;
+  position: relative;
+  margin: 10px 0 20px;
+}
+
+.card-details .author {
+  display: flex;
+  align-items: center;
+}
+
+.author .author-image-container {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.author-image-container .author-image {
+  width: 100%;
+  height: 100%;
+}
+
+.author .author-details {
+  margin-left: 10px;
+}
+
+.author .author-details .author-name {
+  margin: 0;
+}
+
+.author .author-details .post-date {
+  color: #aaa;
+  margin: 7px 0 0;
+  font-size: 13px;
+}
+
+.loading .card-image-container,
+.loading .author .author-image-container {
+  background: linear-gradient(to right, #f3f3f3 30%, #e7e7e7, #f3f3f3 60%);
+  background-size: 150% 100%;
+  animation: placeholder 1s linear infinite;
+}
+
+.loading .card-details .heading,
+.loading .card-details .details,
+.loading .card-details .details:before,
+.loading .card-details .details:after,
+.loading .author-details .author-name,
+.loading .author-details .post-date {
+  min-height: 10px;
+  background: #999;
+  border-radius: 15px;
+  background: linear-gradient(to right, #f3f3f3 30%, #e7e7e7, #f3f3f3 60%);
+  background-size: 150% 100%;
+  animation: placeholder 1s linear infinite;
+}
+
+.loading .card-details .heading {
+  margin-bottom: 40px;
+}
+
+.loading .card-details .details {
+  margin-bottom: 60px;
+}
+
+.loading .card-details .details:before,
+.loading .card-details .details:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.loading .card-details .details:before {
+  top: 20px;
+}
+
+.loading .card-details .details:after {
+  top: 40px;
+}
+
+.loading .author-details {
+  min-width: 40%;
+}
+
+@keyframes placeholder {
+  from {
+    background-position: 800% 50%;
+  }
+  to {
+    background-position: 500% 50%;
+  }
+}
