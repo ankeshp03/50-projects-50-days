@@ -19,10 +19,10 @@ var cardData = {
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis",
   author: {
     image: {
-      path: "https://randomuser.me/api/portraits/men/45.jpg",
+      path: "https://avatars.githubusercontent.com/u/17045131?s=400&u=455ff1cecf07d89e1948332e5e3d461de3d486a8&v=4",
       alt: "author image"
     },
-    name: "John Doe",
+    name: "Ankesh Paramanik",
     postDate: "Apr 13, 2021"
   }
 };
