@@ -38,12 +38,12 @@
 | 23  | [Kinetic Loader](https://github.com/ankeshp03/50-projects-50-days/tree/main/kinetic-loader)                                | [Live Demo](https://codepen.io/ankeshp03/full/XWpZdMm/)           |
 | 24  | [Content Placeholder](https://github.com/ankeshp03/50-projects-50-days/tree/main/content-placeholder)                      | [Live Demo](https://codepen.io/ankeshp03/full/PoWQbpa/)           |
 | 25  | [Sticky Navbar](https://github.com/ankeshp03/50-projects-50-days/tree/main/sticky-navigation)                              | [Live Demo](https://codepen.io/ankeshp03/full/MWJBZya/)           |
+| 30  | [Auto Text Effect](https://github.com/ankeshp03/50-projects-50-days/tree/main/auto-text-effect)                            | [Live Demo](https://codepen.io/ankeshp03/full/MWJBdgm/)           |
 <!--           -
 | 26  | [Double Vertical Slider](https://github.com/ankeshp03/50-projects-50-days/tree/main/double-vertical-slider)                | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 27  | [Toast Notification](https://github.com/ankeshp03/50-projects-50-days/tree/main/toast-notification)                        | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 28  | [Github Profiles](https://github.com/ankeshp03/50-projects-50-days/tree/main/github-profiles)                              | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 29  | [Double Click Heart](https://github.com/ankeshp03/50-projects-50-days/tree/main/double-click-heart)                        | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
-| 30  | [Auto Text Effect](https://github.com/ankeshp03/50-projects-50-days/tree/main/auto-text-effect)                            | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 31  | [Password Generator](https://github.com/ankeshp03/50-projects-50-days/tree/main/password-generator)                        | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 32  | [Good Cheap Fast](https://github.com/ankeshp03/50-projects-50-days/tree/main/good-cheap-fast)                              | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 33  | [Notes App](https://github.com/ankeshp03/50-projects-50-days/tree/main/notes-app)                                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |

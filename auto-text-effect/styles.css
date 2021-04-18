@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: darksalmon;
+}
+
+.speed-container {
+  bottom: 20px;
+  font-size: 17px;
+  position: absolute;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+
+.speed-container #speed {
+  width: 50px;
+  padding: 5px 10px;
+  border: none;
+  font-size: 17px;
+  box-sizing: border-box;
+  background-color: darksalmon;
+}
