@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: rebeccapurple;
+}
+
+.notification-btn {
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 7px;
+  color: rebeccapurple;
+  background-color: #fff;
+}
+
+.notification-btn:active {
+  transform: scale(0.98);
+}
+
+.toast-container {
+  right: 20px;
+  bottom: 20px;
+  position: absolute;
+}
+
+.toast-container .toast {
+  padding: 20px 30px;
+  border-radius: 7px;
+  color: rebeccapurple;
+  background-color: #fff;
+}
+
+.toast-container .toast:not(:last-child) {
+  margin-bottom: 20px;
+}
