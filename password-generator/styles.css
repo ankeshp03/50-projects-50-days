@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  color: #fff;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: #3b3b98;
+}
+
+.container {
+  width: 350px;
+  padding: 20px;
+  max-width: 100%;
+  background-color: #23235b;
+}
+
+.container .heading {
+  text-align: center;
+}
+
+.container button {
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  background-color: #3b3b98;
+}
+
+.container .password-container {
+  display: flex;
+  position: relative;
+}
+
+.password-container .generated-password {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 55px;
+  align-items: center;
+  letter-spacing: 3.4px;
+  word-break: break-word;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.password-container .copy-btn {
+  top: 50%;
+  right: 5px;
+  height: 40px;
+  font-size: 20px;
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.container .controls > p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .submit-btn {
+  width: 100%;
+  font-size: 16px;
+}

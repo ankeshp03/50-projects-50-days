@@ -43,8 +43,8 @@
 | 28  | [Github Profiles](https://github.com/ankeshp03/50-projects-50-days/tree/main/github-profiles)                              | [Live Demo](https://codepen.io/ankeshp03/full/poRQKQN/)           |
 | 29  | [Double Click Heart](https://github.com/ankeshp03/50-projects-50-days/tree/main/double-click-heart)                        | [Live Demo](https://codepen.io/ankeshp03/full/NWdeqjZ/)           |
 | 30  | [Auto Text Effect](https://github.com/ankeshp03/50-projects-50-days/tree/main/auto-text-effect)                            | [Live Demo](https://codepen.io/ankeshp03/full/MWJBdgm/)           |
+| 31  | [Password Generator](https://github.com/ankeshp03/50-projects-50-days/tree/main/password-generator)                        | [Live Demo](https://codepen.io/ankeshp03/full/WNRPZqe/)           |
 <!--           -
-| 31  | [Password Generator](https://github.com/ankeshp03/50-projects-50-days/tree/main/password-generator)                        | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 32  | [Good Cheap Fast](https://github.com/ankeshp03/50-projects-50-days/tree/main/good-cheap-fast)                              | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 33  | [Notes App](https://github.com/ankeshp03/50-projects-50-days/tree/main/notes-app)                                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 34  | [Animated Countdown](https://github.com/ankeshp03/50-projects-50-days/tree/main/animated-countdown)                        | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
