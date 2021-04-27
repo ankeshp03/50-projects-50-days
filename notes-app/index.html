@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Notes App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css" />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+      <nav class="navbar">
+        <h3 class="logo">Notes App</h3>
+      </nav>
+      <ul id="notesContainer">
+        <li id="addNoteContainer" class="noteContainer">
+          <span id="addIcon" title="Click to add a note" onclick="addNote()"
+            >+</span
+          >
+          <div class="header">
+            <input
+              type="text"
+              id="newNoteTitle"
+              class="noteTitle"
+              placeholder="Title"
+              onkeyup="toggleAddBtnDisable()"
+            />
+            <select
+              id="newColorSelector"
+              class="colorSelector"
+              title="Select Color"
+            >
+              <option
+                value="C4F0E8"
+                class="color color_C4F0E8"
+                selected
+              ></option>
+              <option value="FFC1B1" class="color color_FFC1B1"></option>
+              <option value="F2EBD7" class="color color_F2EBD7"></option>
+              <option value="AFE9B2" class="color color_AFE9B2"></option>
+              <option value="EDBD8C" class="color color_EDBD8C"></option>
+            </select>
+          </div>
+          <textarea
+            id="newNoteText"
+            class="noteText"
+            placeholder="Text..."
+            onkeyup="toggleAddBtnDisable()"
+          ></textarea>
+          <button
+            id="saveNote"
+            class="btn saveBtn"
+            onclick="saveNote()"
+            disabled="true"
+          >
+            Add
+          </button>
+          <button
+            id="cancelNewNoteSave"
+            class="btn cancelBtn"
+            onclick="cancelNewNoteSave()"
+          >
+            Cancel
+          </button>
+        </li>
+      </ul>
+  </body>
+</html>
