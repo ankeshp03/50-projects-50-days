@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+}
+
+.container .replay-container {
+  top: 0;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%) scale(0);
+}
+
+.countdown {
+  margin: 0;
+  height: 50px;
+  font-size: 50px;
+  font-weight: 100;
+  overflow: hidden;
+  color: steelblue;
+  position: relative;
+}
+
+.countdown span {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform-origin: bottom center;
+  transform: translate(-50%, -50%) rotate(180deg);
+}
+
+.countdown > span.start {
+  animation: countdownStart 0.5s ease-in-out;
+}
+
+.countdown > span.end {
+  animation: countdownEnd 0.5s ease-in-out;
+}
+
+.countdown-container.hidden {
+  transform: scale(0);
+}
+
+.replay-container.show {
+  animation: showReplay 0.2s ease-in-out forwards;
+}
+
+@keyframes countdownStart {
+  0% {
+    transform: translate(-50%, -50%) rotate(180deg);
+  }
+  30% {
+    transform: translate(-50%, -50%) rotate(-20deg);
+  }
+  60% {
+    transform: translate(-50%, -50%) rotate(10deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+}
+
+@keyframes countdownEnd {
+  0% {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  60% {
+    transform: translate(-50%, -50%) rotate(20deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-180deg);
+  }
+}
+
+@keyframes showReplay {
+  0% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.2);
+  }
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+}

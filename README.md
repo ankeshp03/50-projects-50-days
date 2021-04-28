@@ -46,8 +46,8 @@
 | 31  | [Password Generator](https://github.com/ankeshp03/50-projects-50-days/tree/main/password-generator)                        | [Live Demo](https://codepen.io/ankeshp03/full/WNRPZqe/)           |
 | 32  | [Good Cheap Fast](https://github.com/ankeshp03/50-projects-50-days/tree/main/good-cheap-fast)                              | [Live Demo](https://codepen.io/ankeshp03/full/mdRvGKO/)           |
 | 33  | [Notes App](https://github.com/ankeshp03/50-projects-50-days/tree/main/notes-app)                                          | [Live Demo](https://codepen.io/ankeshp03/full/bGEjWGW/)           |
+| 34  | [Animated Countdown](https://github.com/ankeshp03/50-projects-50-days/tree/main/animated-countdown)                        | [Live Demo](https://codepen.io/ankeshp03/full/ExZMwWa/)           |
 <!--           -
-| 34  | [Animated Countdown](https://github.com/ankeshp03/50-projects-50-days/tree/main/animated-countdown)                        | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 35  | [Image Carousel](https://github.com/ankeshp03/50-projects-50-days/tree/main/image-carousel)                                | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 36  | [Hoverboard](https://github.com/ankeshp03/50-projects-50-days/tree/main/hoverboard)                                        | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 37  | [Pokedex](https://github.com/ankeshp03/50-projects-50-days/tree/main/pokedex)                                              | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
