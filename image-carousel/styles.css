@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.carousel {
+  display: flex;
+  height: calc(100% - 50px);
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.btn-container {
+  display: flex;
+}
+
+.btn-container button {
+  color: #fff;
+  height: 35px;
+  border: none;
+  flex-grow: 1;
+  background: rebeccapurple;
+}
+
+.btn-container button:not(:last-child) {
+  margin-right: 5px;
+}
