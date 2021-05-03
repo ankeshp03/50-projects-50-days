@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111111;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  --hover-color: #1d1d1d;
+  margin: 2px;
+  width: 15px;
+  height: 15px;
+  transition-duration: 2s;
+  background-color: #1d1d1d;
+  box-shadow: 0 0 2px 0 #111111;
+}
+
+.box:hover {
+  transition-duration: 0s;
+  background-color: var(--hover-color);
+  box-shadow: 0 0 5px 1px var(--hover-color);
+}
