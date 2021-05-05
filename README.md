@@ -51,8 +51,8 @@
 | 36  | [Hoverboard](https://github.com/ankeshp03/50-projects-50-days/tree/main/hoverboard)                                        | [Live Demo](https://codepen.io/ankeshp03/full/vYgqXMw/)           |
 | 37  | [Pokedex](https://github.com/ankeshp03/50-projects-50-days/tree/main/pokedex)                                              | [Live Demo](https://codepen.io/ankeshp03/full/GRrVXZd/)           |
 | 38  | [Mobile Tab Navigation](https://github.com/ankeshp03/50-projects-50-days/tree/main/mobile-tab-navigation)                  | [Live Demo](https://codepen.io/ankeshp03/full/Rwpwbae/)           |
+| 39  | [Password Strength Background](https://github.com/ankeshp03/50-projects-50-days/tree/main/password-strength-background)    | [Live Demo](https://codepen.io/ankeshp03/full/MWpWaYO/)           |
 <!--           -
-| 39  | [Password Strength Background](https://github.com/ankeshp03/50-projects-50-days/tree/main/password-strength-background)    | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 40  | [3d Background Boxes](https://github.com/ankeshp03/50-projects-50-days/tree/main/3d-boxes-background)                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 41  | [Verify Account Ui](https://github.com/ankeshp03/50-projects-50-days/tree/main/verify-account-ui)                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 42  | [Live User Filter](https://github.com/ankeshp03/50-projects-50-days/tree/main/live-user-filter)                            | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |

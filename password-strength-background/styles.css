@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.strength-image-container {
+  --blur-value: 20px;
+  top: -20px;
+  z-index: -1;
+  left: -20px;
+  position: fixed;
+  background-size: cover;
+  width: calc(100% + 40px);
+  height: calc(100% + 40px);
+  background-position: center;
+  filter: blur(var(--blur-value));
+  background-image: url("https://images.unsplash.com/photo-1556745757-8d76bdb6984b");
+}
+
+.container {
+  padding: 40px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 2.5px 2.5px 10px -2.5px rgba(0, 0, 0, 0.3);
+}
+
+.container .heading {
+  font-weight: 100;
+  margin: 5px 0 0;
+  text-align: center;
+}
+
+.container .sub-heading {
+  color: #777;
+  font-size: 14px;
+  margin: 5px 0 20px;
+  text-align: center;
+}
+
+.login-form .input-container {
+  margin-top: 10px;
+}
+
+.login-form .input-container input {
+  width: 100%;
+  margin: 10px 0;
+  font-size: 15px;
+  padding: 10px 5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #e1e1e1;
+}
+
+.login-form .input-container input::placeholder {
+  color: #bbb;
+}
+
+.login-form .submit-btn {
+  width: 100%;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 0;
+  margin-top: 20px;
+  border-radius: 4px;
+  background-color: #000;
+}
