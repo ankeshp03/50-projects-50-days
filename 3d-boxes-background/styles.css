@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  transition: 0.35s ease;
+  justify-content: space-around;
+}
+
+.container.magic {
+  width: 370px;
+  height: 370px;
+}
+
+.box {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  transition: 0.35s ease;
+  background-size: 300px 300px;
+  background-repeat: no-repeat;
+  background-image: url("https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif");
+}
+
+.box:before,
+.box:after {
+  content: "";
+  position: absolute;
+  transform: skew(45deg);
+}
+
+.box:before {
+  width: 100%;
+  height: 10px;
+  left: 5px;
+  bottom: -10px;
+  background: #f9ca24;
+  transform: skewX(45deg);
+}
+
+.box:after {
+  width: 10px;
+  height: 100%;
+  right: -10px;
+  top: 5px;
+  background: #f6e58d;
+  transform: skewY(45deg);
+}
+.magic .box {
+  transform: rotateZ(360deg);
+}
+
+.toggle-btn {
+  top: 20px;
+  z-index: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  position: absolute;
+  border-radius: 4px;
+  background-color: #f9ca24;
+  box-shadow: 0 4px 0 0 #f9ca2488;
+}
+
+.toggle-btn:active {
+  box-shadow: none;
+  transform: translateY(2px);
+}
+
+.box:nth-child(2) {
+  background-position: 33.3% 0;
+}
+
+.box:nth-child(3) {
+  background-position: 66.6% 0;
+}
+
+.box:nth-child(4) {
+  background-position: 100% 0;
+}
+
+.box:nth-child(5) {
+  background-position: 0 33.3%;
+}
+
+.box:nth-child(6) {
+  background-position: 33.3% 33.3%;
+}
+
+.box:nth-child(7) {
+  background-position: 66.6% 33.3%;
+}
+
+.box:nth-child(8) {
+  background-position: 100% 33.3%;
+}
+
+.box:nth-child(9) {
+  background-position: 0 66.6%;
+}
+
+.box:nth-child(10) {
+  background-position: 33.3% 66.6%;
+}
+
+.box:nth-child(11) {
+  background-position: 66.6% 66.6%;
+}
+
+.box:nth-child(12) {
+  background-position: 100% 66.6%;
+}
+
+.box:nth-child(13) {
+  background-position: 0 100%;
+}
+
+.box:nth-child(14) {
+  background-position: 33.3% 100%;
+}
+
+.box:nth-child(15) {
+  background-position: 66.6% 100%;
+}
+
+.box:nth-child(16) {
+  background-position: 100% 100%;
+}
