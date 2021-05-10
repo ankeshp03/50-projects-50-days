@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.card .card-head-container {
+  color: #fff;
+  padding: 30px 20px;
+  background-color: #3e57db;
+}
+
+.card-head-container .heading {
+  margin: 0;
+}
+
+.card-head-container .sub-heading {
+  font-size: 14px;
+  margin: 10px 0 25px;
+}
+
+.card #search-box {
+  width: 100%;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card .user-container {
+  overflow-y: auto;
+  max-height: 350px;
+}
+
+.card .user-container .user {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+.card .user-container .user:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.user-container .user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-container .user .details-container {
+  padding-left: 10px;
+}
+
+.user-container .user .details-container .name {
+  margin: 0;
+}
+
+.user-container .user .details-container .location {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+.card .user-container .loader,
+.card .user-container .noData {
+  padding: 20px;
+}

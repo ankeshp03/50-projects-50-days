@@ -54,8 +54,8 @@
 | 39  | [Password Strength Background](https://github.com/ankeshp03/50-projects-50-days/tree/main/password-strength-background)    | [Live Demo](https://codepen.io/ankeshp03/full/MWpWaYO/)           |
 | 40  | [3d Background Boxes](https://github.com/ankeshp03/50-projects-50-days/tree/main/3d-boxes-background)                      | [Live Demo](https://codepen.io/ankeshp03/full/rNyaJLx/)           |
 | 41  | [Verify Account Ui](https://github.com/ankeshp03/50-projects-50-days/tree/main/verify-account-ui)                          | [Live Demo](https://codepen.io/ankeshp03/full/zYZxemw/)           |
+| 42  | [Live User Filter](https://github.com/ankeshp03/50-projects-50-days/tree/main/live-user-filter)                            | [Live Demo](https://codepen.io/ankeshp03/full/JjWdOGp/)           |
 <!--           -
-| 42  | [Live User Filter](https://github.com/ankeshp03/50-projects-50-days/tree/main/live-user-filter)                            | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 43  | [Feedback Ui Design](https://github.com/ankeshp03/50-projects-50-days/tree/main/feedback-ui-design)                        | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 44  | [Custom Range Slider](https://github.com/ankeshp03/50-projects-50-days/tree/main/custom-range-slider)                      | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 45  | [Netflix Mobile Navigation](https://github.com/ankeshp03/50-projects-50-days/tree/main/netflix-mobile-navigation)          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
