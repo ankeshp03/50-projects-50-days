@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 150px;
+}
+
+.sidebar {
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100vh;
+  position: fixed;
+  min-width: 320px;
+  max-width: 420px;
+  padding-right: 40px;
+  background-color: #222;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar:after {
+  top: 0;
+  left: 0;
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: calc(100% - 20px);
+  background-color: #e50914;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar .content {
+  z-index: 2;
+  height: 100%;
+  padding: 40px;
+  position: relative;
+  padding-right: 30px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.hide {
+  transition-delay: 0.4s;
+  transform: translateX(-100%);
+}
+
+.sidebar.hide:after {
+  transition-delay: 0.2s;
+  transform: translateX(-100%);
+}
+
+.sidebar.hide .content {
+  transition-delay: 0;
+  transform: translateX(-100%);
+}
+
+.sidebar.show {
+  transition-delay: 0;
+  transform: translateX(0);
+}
+
+.sidebar.show:after {
+  transition-delay: 0.2s;
+  transform: translateX(0);
+}
+
+.sidebar.show .content {
+  transition-delay: 0.4s;
+  transform: translateX(0);
+}
+
+.menu-btn {
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.open-menu-btn {
+  top: 10px;
+  left: 10px;
+  width: 29px;
+  height: 22px;
+  padding: 5px;
+  position: fixed;
+}
+
+.menu-btn .bar {
+  height: 3px;
+  display: block;
+  position: absolute;
+  border-radius: 17px;
+}
+
+.open-menu-btn .bar {
+  background-color: #333;
+  width: calc(100% - 10px);
+}
+
+.open-menu-btn .bar:nth-of-type(1) {
+  top: 3px;
+}
+
+.open-menu-btn .bar:nth-of-type(2) {
+  top: 9px;
+}
+
+.open-menu-btn .bar:nth-of-type(3) {
+  top: 15px;
+}
+
+.close-menu-btn {
+  width: 25px;
+  float: right;
+  height: 25px;
+  outline: none;
+  padding: 3.5px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.close-menu-btn:focus {
+  box-shadow: 0 0 0 1.5px #bbb;
+}
+
+.close-menu-btn .bar {
+  top: 45%;
+  background-color: #bbb;
+  width: calc(100% - 7px);
+}
+
+.close-menu-btn .bar:nth-of-type(1) {
+  transform: rotate(45deg);
+}
+
+.close-menu-btn .bar:nth-of-type(2) {
+  transform: rotate(-45deg);
+}
+
+.menu {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.sidebar .content > .menu {
+  margin-top: 30px;
+}
+
+.menu ul {
+  padding-left: 20px;
+}
+
+.menu .item:not(:first-of-type) {
+  padding-top: 20px;
+}
+
+.menu .item a {
+  color: #000;
+  text-decoration: none;
+}
