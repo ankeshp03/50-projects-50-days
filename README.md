@@ -58,8 +58,8 @@
 | 43  | [Feedback Ui Design](https://github.com/ankeshp03/50-projects-50-days/tree/main/feedback-ui-design)                        | [Live Demo](https://codepen.io/ankeshp03/full/GRWpgRg/)           |
 | 44  | [Custom Range Slider](https://github.com/ankeshp03/50-projects-50-days/tree/main/custom-range-slider)                      | [Live Demo](https://codepen.io/ankeshp03/full/YzZyObq/)           |
 | 45  | [Netflix Mobile Navigation](https://github.com/ankeshp03/50-projects-50-days/tree/main/netflix-mobile-navigation)          | [Live Demo](https://codepen.io/ankeshp03/full/bGqEgyN/)           |
+| 46  | [Quiz App](https://github.com/ankeshp03/50-projects-50-days/tree/main/quiz-app)                                            | [Live Demo](https://codepen.io/ankeshp03/full/LYWGKmO/)           |
 <!--           -
-| 46  | [Quiz App](https://github.com/ankeshp03/50-projects-50-days/tree/main/quiz-app)                                            | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 47  | [Testimonial Box Switcher](https://github.com/ankeshp03/50-projects-50-days/tree/main/testimonial-box-switcher)            | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 48  | [Random Image Feed](https://github.com/ankeshp03/50-projects-50-days/tree/main/random-image-generator)                     | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 49  | [Todo List](https://github.com/ankeshp03/50-projects-50-days/tree/main/todo-list)                                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
