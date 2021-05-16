@@ -1,0 +1,85 @@
+body {
+  margin: 0 15px;
+  display: flex;
+  height: 100vh;
+  letter-spacing: 1.1px;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: #efefef;
+}
+
+.card {
+  color: #fff;
+  max-width: 750px;
+  padding: 50px 70px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  background-color: #476ce4;
+}
+
+.card .progress {
+  width: 0;
+  height: 4px;
+  background-color: #fff;
+}
+
+.card .progress.animate {
+  animation: animate-progress 10s linear infinite;
+}
+
+.card .comment-container .comment {
+  margin: 20px 0;
+  line-height: 30px;
+  position: relative;
+  text-align: justify;
+}
+
+.comment-container .comment:before,
+.comment-container .comment:after {
+  top: 0;
+  opacity: 0.3;
+  font-size: 25px;
+  font-weight: 900;
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+}
+
+.comment-container .comment:before {
+  left: -10px;
+  content: "\f10e";
+  transform: translateX(-100%);
+}
+
+.comment-container .comment:after {
+  right: -10px;
+  content: "\f10d";
+  transform: translateX(100%);
+}
+
+.comment-container .author-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment-container .author-details img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.comment-container .author-details .info {
+  margin-left: 15px;
+}
+
+.comment-container .author-details .info .name,
+.comment-container .author-details .info .designation {
+  margin: 10px 0;
+}
+
+@keyframes animate-progress {
+  to {
+    width: 100%;
+  }
+}
