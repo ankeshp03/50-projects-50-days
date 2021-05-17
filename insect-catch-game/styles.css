@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  color: #fff;
+  overflow: hidden;
+  font-family: sans-serif;
+  background-color: #516dff;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  transition: margin-top 0.5s ease;
+}
+
+.page button {
+  cursor: pointer;
+}
+
+.page .heading {
+  font-size: 30px;
+}
+
+.start-btn {
+  border: none;
+  color: #516dff;
+  padding: 15px 20px;
+  background-color: #fff;
+}
+
+.start-btn:hover {
+  background-color: #eee;
+}
+
+.insects-container {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: center;
+}
+
+.insects-container .item .select-insect-btn {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  color: inherit;
+  border: 2px solid #fff;
+  background-color: transparent;
+}
+
+.insects-container .item .select-insect-btn:hover {
+  color: #516dff;
+  background-color: #fff;
+}
+
+.insect-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.details-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.insect-catch-container {
+  width: 100%;
+  position: relative;
+  height: calc(100% - 100px);
+}
+
+.page .message {
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.page .message.show {
+  opacity: 1;
+  transform: translateY(170%);
+}
+
+.insect-catch-container .insect-img {
+  cursor: pointer;
+  position: absolute;
+  transition: transform 0.5s ease;
+}
+
+.page.up {
+  margin-top: -100vh;
+}

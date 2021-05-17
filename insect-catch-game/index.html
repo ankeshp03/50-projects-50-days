@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Insect Catch Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./styles.css" />
+    <script src="./scripts.js"></script>
+  </head>
+  <body>
+    <section class="page">
+      <h1 class="heading">Catch The Insect</h1>
+      <button class="start-btn">Play Game</button>
+    </section>
+    <section class="page">
+      <h2 class="heading">What is your "favorite" insect?</h2>
+      <ul class="insects-container">
+        <li class="item">
+          <button class="select-insect-btn">
+            <p class="name">Fly</p>
+            <img
+              src="https://pngimg.com/uploads/fly/fly_PNG3946.png"
+              class="insect-img"
+              alt="Fly"
+            />
+          </button>
+        </li>
+        <li class="item">
+          <button class="select-insect-btn">
+            <p class="name">Mosquito</p>
+            <img
+              src="https://pngimg.com/uploads/mosquito/mosquito_PNG18175.png"
+              class="insect-img"
+              alt="Mosquito"
+            />
+          </button>
+        </li>
+        <li class="item">
+          <button class="select-insect-btn">
+            <p class="name">Spider</p>
+            <img
+              src="https://pngimg.com/uploads/spider/spider_PNG12.png"
+              class="insect-img"
+              alt="Spider"
+            />
+          </button>
+        </li>
+        <li class="item">
+          <button class="select-insect-btn">
+            <p class="name">Roach</p>
+            <img
+              src="https://pngimg.com/uploads/roach/roach_PNG12163.png"
+              class="insect-img"
+              alt="Roach"
+            />
+          </button>
+        </li>
+      </ul>
+    </section>
+    <section class="page">
+      <div class="details-container">
+        <h3 class="time-container">
+          <span class="label">Time:</span>
+          <span class="time value">00 : 00</span>
+        </h3>
+        <h3 class="score-container">
+          <span class="label">Score: </span>
+          <span class="score value">0</span>
+        </h3>
+      </div>
+      <h3 class="message">
+        Are you annnoyed yet?
+        <br />
+        You are playing an impossible game!!
+      </h3>
+      <div class="insect-catch-container"></div>
+    </section>
+  </body>
+</html>
