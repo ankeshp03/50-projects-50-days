@@ -60,8 +60,8 @@
 | 45  | [Netflix Mobile Navigation](https://github.com/ankeshp03/50-projects-50-days/tree/main/netflix-mobile-navigation)          | [Live Demo](https://codepen.io/ankeshp03/full/bGqEgyN/)           |
 | 46  | [Quiz App](https://github.com/ankeshp03/50-projects-50-days/tree/main/quiz-app)                                            | [Live Demo](https://codepen.io/ankeshp03/full/LYWGKmO/)           |
 | 47  | [Testimonial Box Switcher](https://github.com/ankeshp03/50-projects-50-days/tree/main/testimonial-box-switcher)            | [Live Demo](https://codepen.io/ankeshp03/full/BaWKOgz/)           |
+| 48  | [Random Image Feed](https://github.com/ankeshp03/50-projects-50-days/tree/main/random-image-generator)                     | [Live Demo](https://codepen.io/ankeshp03/full/qBrNdvE/)           |
 <!--           -
-| 48  | [Random Image Feed](https://github.com/ankeshp03/50-projects-50-days/tree/main/random-image-generator)                     | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 49  | [Todo List](https://github.com/ankeshp03/50-projects-50-days/tree/main/todo-list)                                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 | 50  | [Insect Catch Game](https://github.com/ankeshp03/50-projects-50-days/tree/main/insect-catch-game)                          | [Live Demo](https://codepen.io/ankeshp03/full/VwPjmvX/)           |
 --->
